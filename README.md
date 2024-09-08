@@ -16,8 +16,8 @@
 и список.
 
 #### Описание технологий проекта:
-1. React (Hooks, useQuery, MaterialUi);
-2. Spring (Boot, Data/Jpa);
+1. Javascript, React (Hooks, useQuery, MaterialUi);
+2. Java 17, Spring (Boot, Data/Jpa);
 3. H2 (embedded, in-memory).
 
 #### Быстрое демо:
