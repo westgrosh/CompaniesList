@@ -21,7 +21,16 @@
 3. H2 (embedded, in-memory).
 
 #### Быстрое демо:
-1. Запустить файл `build/libs/...`;
-   Пример запуска файла `C:\...\.jdks\temurin-17.0.12\bin\java.exe -Dfile.encoding=UTF-8 -jar C:\...\IdeaProjects\Test\CompaniesList\build\libs\CompaniesList-0.0.1-SNAPSHOT.jar`
+1. Запустить файл `build\libs\CompaniesList-0.0.1-SNAPSHOT.jar`;
+- Пример запуска файла `C:\...\.jdks\temurin-17.0.12\bin\java.exe -Dfile.encoding=UTF-8 -jar C:\...\IdeaProjects\Test\CompaniesList\build\libs\CompaniesList-0.0.1-SNAPSHOT.jar`
 3. Открыть `localhost:8082/CompaniesList`;
 4. Завершить все процессы `OpenJDK` через диспетчер задач.
+
+### Особенности сборки проета:
+- Сборщик `Gradle`
+- Плагин для работы с npm через таски Gradle: `com.github.node-gradle.node`
+- Root приложения настроен на `/CompaniesList/`
+- Webpack для сборки frontend.
+- Для работы с frontend hothtmlplugin перейти в репо `\src\main\frontend\`
+- Запустить `npm run dev` в терминале, открыть `localhost:8090/<root>`
+- Прокси запросы на `./api/` на бек приложение `localhost:8082/<root>`
