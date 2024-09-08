@@ -1,0 +1,14 @@
+.main-page {
+    display: flex;
+}
+
+.left-side {
+    width: 30%;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.right-side {
+    width: 70%;
+    padding: 20px;
+}
