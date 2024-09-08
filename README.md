@@ -22,5 +22,6 @@
 
 #### Быстрое демо:
 1. Запустить файл `build/libs/...`;
-2. Открыть `localhost:8082/CompaniesList`;
-3. Завершить все процессы `OpenJDK` через диспетчер задач.
+   Пример запуска файла `C:\...\.jdks\temurin-17.0.12\bin\java.exe -Dfile.encoding=UTF-8 -jar C:\...\IdeaProjects\Test\CompaniesList\build\libs\CompaniesList-0.0.1-SNAPSHOT.jar`
+3. Открыть `localhost:8082/CompaniesList`;
+4. Завершить все процессы `OpenJDK` через диспетчер задач.
